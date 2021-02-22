@@ -16,13 +16,5 @@ $ docker build --no-cache --tag "gumstix2021lena/yocto:latest" yocto-docker
    > -e UID=$(id -u) -e GID=$(id -g) \
    > gumstix2021lena/yocto:latest
 ```
-  
-  ### jetson nano
-```
-  $ docker run --rm -it \
-   > -v ~/gumstix-image:/yocto/build/tmp/deploy/images \
-   > -e MACHINE=jetson-nano-emmc \
-   > -e IMAGE=gumstix-console-image \
-   > -e UID=$(id -u) -e GID=$(id -g) \
-   > gumstix2021lena/yocto:latest
+
  ```
