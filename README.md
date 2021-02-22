@@ -1,12 +1,12 @@
 # yocto-docker
 
-## Manually build a yocto image
+## Manually build a yocto console image
 ```
 $ git clone https://github.com/kimd98/yocto-docker.git yocto-docker
 $ docker build --no-cache --tag "gumstix2021lena/yocto:latest" yocto-docker
 ```
 
-## Start yocto container and build a console image with default settings
+## Start yocto container and build an image with default settings
   ### raspberry pi cm3
   ```
   $ docker run --rm -it \
