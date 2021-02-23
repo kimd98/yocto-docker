@@ -1,6 +1,6 @@
 # yocto-docker
 
-## Manually build a yocto console image
+## Manually build a yocto image
 ```
 $ git clone https://github.com/kimd98/yocto-docker.git -b jetson-nano yocto-docker
 $ docker build --no-cache --tag "gumstix2021lena/yocto:jetson-nano" yocto-docker
