@@ -1,6 +1,6 @@
 # yocto-docker
 
-## Manually build a yocto console image
+## Manually build a yocto image
 ```
 $ git clone https://github.com/kimd98/yocto-docker.git yocto-docker
 $ docker build --no-cache --tag "gumstix2021lena/yocto:latest" yocto-docker
